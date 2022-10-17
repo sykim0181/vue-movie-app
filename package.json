@@ -8,7 +8,8 @@
     "last 2 versions"
   ],
   "scripts": {
-    "dev": "webpack-dev-server --mode development",
+    "dev:webpack": "webpack-dev-server --mode development",
+    "dev:netlify": "netlify dev",
     "build": "webpack --mode production"
   },
   "keywords": [],
@@ -28,6 +29,7 @@
     "eslint-plugin-vue": "^9.4.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
+    "netlify-cli": "^12.0.9",
     "postcss": "^8.4.16",
     "postcss-loader": "^5.2.0",
     "sass": "^1.32.8",
